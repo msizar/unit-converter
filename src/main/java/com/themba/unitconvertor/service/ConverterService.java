@@ -5,8 +5,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class ConverterService {
 
-	private final double KELVIN = 273.15;
-	private final double KILOMETER = 1.60934;
+	private final double KELVIN = 273.15; //Kelvin converting constant
+	private final double KILOMETER = 1.60934; //Kilometers per mile
 
 	public double ConvertKelvinToCelsius(double value) {
 		return  value - KELVIN;
