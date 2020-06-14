@@ -24,4 +24,14 @@ public class ConverterController {
 	public double ConvertCelsiusKelvin(@RequestBody double value){
 		return converterService.ConvertCelsiusToKelvin(value);
 	}
+
+	@RequestMapping("mtok")
+	public double ConvertMilesToKilometers(@RequestBody double value){
+		return converterService.ConvertMilesToKilometers(value);
+	}
+
+	@RequestMapping("ktom")
+	public double ConvertKilometersToMiles(@RequestBody double value) {
+		return converterService.ConvertKilometersToMiles(value);
+	}
 }
