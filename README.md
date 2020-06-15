@@ -7,10 +7,10 @@
     - Import pom file
     - Run
 
- ## One client e.g Postman
+ ## Run On client e.g Postman
     - App will run on: http://localhost:8080/
     
-    ### example 
+    ## example 
         - To convert 10 Kelvin to Celius visit link http://localhost:8080/conversions/ktoc, body: 10
         - Please note body only take decimal/Double values do not add "{}" or any other chars on body  
         
